@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+    <pattern>Ask me a ques</pattern>
+    
+    <template>
+        <random>
+        <li>Do you like urself XD</li>
+        <li>Do you like to eat meat</li>
+        </random>
+    </template>
+    
+</category>
+<category>
+    <that>Do you like urself XD</that>
+    <pattern>Yep</pattern>
+    <template>Do i care?</template>
+</category>
+
+<category>
+    <that>Do you like urself XD</that>
+    <pattern>Nah</pattern>
+    <template>Ok...whtever -_-</template>
+</category>
+<category>
+    <that>Do you like to eat meat</that>
+    <pattern>yep</pattern>
+    <template>uhmmm</template>
+</category>
+<category>
+    <that>Do you like to eat meat</that>
+    <pattern>nah</pattern>
+    <template>oleeeee</template>
+</category>
+</aiml>
+
